@@ -37,21 +37,21 @@ public class Quiz11_1 {
         return new Insurance();
     }
 
-    public class Insurance{
+    private class Insurance{
         private String name;
         public String getName(){
             return name;
         }
     }
 
-    public class Car{
+    private class Car{
         private Optional<Insurance> insurance;
         public Optional<Insurance> getInsurance(){
             return insurance;
         }
     }
 
-    public class Person{
+    private class Person{
         private Optional<Car> car;
         public Optional<Car> getCar(){
             return car;
